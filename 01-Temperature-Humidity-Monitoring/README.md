@@ -20,4 +20,4 @@ To measure temperature and humidity using a DHT22 sensor connected to an ESP32 a
 Temperature and humidity readings are successfully uploaded to ThingSpeak and displayed as graphs.
 
 ## Simulation
-Wokwi simulation link: ADD_YOUR_LINK_HERE
+Wokwi simulation link: https://wokwi.com/projects/480461215983484929
