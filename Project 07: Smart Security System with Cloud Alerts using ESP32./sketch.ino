@@ -9,11 +9,11 @@
 const char* ssid     = "Wokwi-GUEST";
 const char* password = "";
 
-const char* telegramToken  = "9163369641:AAEmGcvqFMNpIeZvjbH3PSPXFG7_Z1VZejM";
-const char* telegramChatId = "1267964999";
+const char* telegramToken  = "token";
+const char* telegramChatId = "id";
 
-unsigned long channelID = 3579040;               // your NEW channel's ID
-const char* apiKey = "I9OAARR49DBVSIWW";       // your NEW channel's Write key
+unsigned long channelID = id;               // your NEW channel's ID
+const char* apiKey = "api_key";       // your NEW channel's Write key
 
 const unsigned long cooldown = 20000;            // 20 s between alerts
 unsigned long lastAlert = 0;
