@@ -9,7 +9,7 @@ const float DISTANCE_CM = 20.0;          // gap between the two sensors
 const char* ssid     = "Wokwi-GUEST";
 const char* password = "";
 
-unsigned long channelID = 3579040;               // your NEW channel's ID
+unsigned long channelID = ;               // your NEW channel's ID
 const char* apiKey = "write_api";       // your NEW channel's Write key
 
 WiFiClient client;
