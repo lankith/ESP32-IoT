@@ -5,7 +5,7 @@
 const char* ssid     = "Wokwi-GUEST";
 const char* password = "";
 
-const char* iftttKey = "jPImvaqT9n1i8AfsJ5QYoZK33raLrIPmFmGjUBjhkuM";
+const char* iftttKey = "enter the api";
 const char* eventName = "motion_detected";
 
 #define PIR_PIN 4
