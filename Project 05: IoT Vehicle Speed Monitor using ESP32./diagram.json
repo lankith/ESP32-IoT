@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "author": "Ankitha Venkatesh",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 25.4,
+      "left": -201.6,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn2",
+      "top": 131,
+      "left": -201.6,
+      "attrs": { "color": "red", "xray": "1" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "btn1:1.r", "esp:17", "green", [ "v0", "h115.4", "v-115.2", "h172.8", "v115.2" ] ],
+    [ "btn1:1.l", "esp:GND.2", "black", [ "h-57.6", "v-57.6", "h384", "v-19.2" ] ],
+    [ "btn2:1.r", "esp:27", "green", [ "v0" ] ],
+    [ "esp:GND.2", "btn2:1.l", "black", [ "v-86.4", "h-359.96", "v201.6" ] ]
+  ],
+  "dependencies": {}
+}
