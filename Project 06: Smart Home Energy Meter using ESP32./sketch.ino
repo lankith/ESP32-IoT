@@ -14,8 +14,8 @@ const int   SAMPLES     = 100;      // readings averaged for a stable value
 const char* ssid     = "Wokwi-GUEST";
 const char* password = "";
 
-unsigned long channelID =3579175;               // your NEW channel's ID
-const char* apiKey = "LIMCIJIHO4TY7MT6";       // your NEW channel's Write key
+unsigned long channelID =channel_ID;               // your NEW channel's ID
+const char* apiKey = "Write_API_Key";       // your NEW channel's Write key
 
 WiFiClient client;
 unsigned long lastDisplay = 0;
